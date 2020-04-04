@@ -1,0 +1,46 @@
+
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: "Times New Roman";
+	font-weight: 300;
+    }
+
+.t_title {
+    color: #7E5A01;
+}
+
+p {
+	padding: 2px 0;
+	font-size: 16px;
+	
+    }
+
+h1{
+	padding: 2px 0;
+	font-size: 30px;    
+	text-align: center;	
+	}
+
+h3 {
+	padding: 2px 0;
+	font-size: 20px;	
+	font-weight: bold;
+	}
+
+table {
+	padding: 2px 0;
+	width: 100%;	
+	}
+
+td {
+	padding: 10px 0;
+	font-size: 17px;	
+    }
+
+img {
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	
