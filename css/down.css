@@ -1,0 +1,55 @@
+.down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.down_font {
+  padding: 0;
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.down_text {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: green;
+}
+
+.down_text_1 {
+  text-decoration: underline;
+  color:  orange;
+}
+.down_text_2{
+  color:  gray;
+}
+.down_logo-fresh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.down_logo-fresh-text-black {
+  margin: 0;
+
+}
+
+.down_logo-fresh-text-orange {
+  margin: 0;
+  color: #f0c74e;
+}
+
+.down_logo-fresh-img {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+

@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Thin.ttf");
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto;
+    width: 100%
+    border: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-left-big {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.why {
+  background: url(../img/why.jpg) center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.why_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why_title_h {
+  font-size: 45px;
+  color: #fff;
+  margin: 30px;
+
+  font-weight: lighter;
+}
+
+.why_item {
+  position: relative;
+}
+
+.why_item-text-left {
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  color: white;
+}
+
+.why_item-text-right {
+  color: green;
+  font-size: 20px;
+  width: 35%;
+  position: absolute;
+  top: 55px;
+  right: 165px;
+  line-height: 1;
+
+}
+
+.why_item-text-left-last {
+  top: 60px;
+}
+
+.why_item-text-right-last {
+  top: 80px;
+}
+
+.text_left_big {
+  content: "100";
+  font-size: 50px;
+}
+
+.why_item_img {
+  width: 85%;
+  padding: 20px;
+}
+
+.why_item_last {
+  position: relative;
+  padding: 20px 0 50px 0;
+}
+
+
+
