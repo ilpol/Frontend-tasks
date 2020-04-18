@@ -241,17 +241,17 @@ a:active {
     align-items: center;
 }
 
+.many_earphones_item_picture{
+ 
+    height: 550px;
+}
+
 .many_earphones_info{
 	
 	position: absolute;
 	top: 350px;
 	bottom: 20px;
 	padding: 20px;
-}
-
-.many_earphones_name_1{
-	font-size: 40px;
-	font-weight: 600;
 }
 
 .many_earphones_name{
@@ -263,15 +263,9 @@ a:active {
 	content: "x";
     position: absolute;
     font-size: 20pt;
-    bottom: 5px;
+    bottom: 130px;
 }
 
-.many_earphones_name_1::after{
-	content: "x";
-    position: absolute;
-    font-size: 20pt;
-    bottom: 60px;
-}
 
 .many_earphones_desc{
 	padding-top: 20px;
