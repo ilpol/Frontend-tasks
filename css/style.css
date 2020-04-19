@@ -4,6 +4,7 @@ body {
     font-family: Roboto;
 
 }
+
 a:link {
   text-decoration: none;
 }
@@ -19,17 +20,15 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
 .header{
 	z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, .50);
-
     padding: 10px 0;
-
     width: 100%;
-
     position: fixed;
 }
 
@@ -72,9 +71,12 @@ a:active {
     align-items: flex-start;
 }
 
+.outline{
+  outline: 1px solid blue;
+}
+
 .earphone_img{
-	position: absolute;
-   
+	position: absolute;   
 }
 
 .earphone_desc{
@@ -86,7 +88,6 @@ a:active {
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
-
 }
 
 .earphone_buy{
@@ -94,11 +95,6 @@ a:active {
 	flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
-
-}
-
-.earphone_name{
-
 }
 
 .earphone_motto{
@@ -116,18 +112,15 @@ a:active {
 }
 
 .earphone_button{
-	  color: #000000;
-  font-size: 14px;
- 
-  
-  width:200px;
-
-  background: #FFC700;
-  border: none;
-  padding: 10px 17px;
-  border-radius: 78px;
-  outline: none;
-  cursor: pointer;
+	color: #000000;
+    font-size: 14px;  
+    width:200px;
+    background: #FFC700;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 78px;
+    outline: none;
+    cursor: pointer;
 }
 
 .earphone_add_info{
@@ -136,16 +129,64 @@ a:active {
 }
 
 .pill{
+	margin-top: 100px;
 	display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
 
+.white_button{
+	display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background: white;
+    margin-right:20px; 
+}
+
+.white_button:hover{
+	border: 2px solid grey;
+}
+
+.red_button{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;      
+    background: red;
+    margin-right:20px; 
+    border: 0px;
+}
+
+.red_button:hover{
+	border: 2px solid grey;
+}
+
+.black_button{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;      
+    background: black;
+    border: 0px;
+}
+
+.black_button:hover{
+	border: 2px solid grey;
+}
+
+.pill_info_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .pill_info{
-	padding-top: 320px;
-	padding-left: 180px; 
+	padding: 200px;	 
 }
+
 
 .pill_name_big{
 	padding-top: 20px;
@@ -163,15 +204,20 @@ a:active {
 .pill_select{
 	display: flex;
 	flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
+    justify-content: flex-start;
+    align-items: center;
 
+}
+
+.pill_img{	
+    width: 760px;
+    height: 600px;
 }
 
 .check_bar{
-	padding-left: 350px;
-
+	display: flex;
 }
+
 .available_colors{
 	padding-top: 20px;
 	font-size: 31pt;
@@ -182,11 +228,10 @@ a:active {
 }
 
 .colors{
-	padding-top: 20px;
-	width: 30%;
+	padding-top: 20px;	
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     cursor: pointer;
 }
@@ -204,20 +249,32 @@ a:active {
 	font-size: 20pt;
 }
 
+.check{
+	display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;      
+    background: gray;
+    margin: 5px;
+    border: 0px;
+}
+
+.check:hover{
+	background: black;
+}
+
 .buy_button_pill{
-  padding-left: 100px;
-  color: #FFFFFF;
-  font-size: 14px;
- 
-  
-  width:195px;
-  height: 45px;
-  background: #000000;;
-  border: none;
-  padding: 10px 17px;
-  border-radius: 78px;
-  outline: none;
-  cursor: pointer;
+    padding-left: 100px;
+    color: #FFFFFF;
+    font-size: 14px;  
+    width:195px;
+    height: 45px;
+    background: #000000;;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 78px;
+    outline: none;
+    cursor: pointer;
 }
 
 .add_info_pill{
@@ -225,6 +282,7 @@ a:active {
 }
 
 .many_earphones{
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
     justify-content: space-around;
@@ -242,12 +300,12 @@ a:active {
 }
 
 .many_earphones_item_picture{
- 
+	margin: 0 auto;
+	margin-top: 20px;  
     height: 550px;
 }
 
-.many_earphones_info{
-	
+.many_earphones_info{	
 	position: absolute;
 	top: 350px;
 	bottom: 20px;
@@ -263,9 +321,8 @@ a:active {
 	content: "x";
     position: absolute;
     font-size: 20pt;
-    bottom: 130px;
+    bottom: 160px;
 }
-
 
 .many_earphones_desc{
 	padding-top: 20px;
@@ -287,15 +344,15 @@ a:active {
 }
 
 .many_earphones_buy_button{
-  color: #FFFFFF;
-  font-size: 14px;
-  width: 80px;
-  background: #000000;
-  border: none;
-  padding: 10px 17px;
-  border-radius: 78px;
-  outline: none;
-  cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 80px;
+    background: #000000;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 78px;
+    outline: none;
+    cursor: pointer;
 }
 
 .footer{
