@@ -24,7 +24,6 @@ body {
 .header_2{
   padding-left: 50px;
   padding-top: 15px;
-	width: 100%;
 	height: 40px;
   display: flex;
   flex-direction: row;
@@ -75,7 +74,7 @@ body {
 }
 
 .header__section{
-	width: 25%;
+  width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,6 +86,7 @@ body {
 	color: #737270;
 	text-decoration: none;
 	margin: 0 15px;
+  margin-right: 40px;
 }
 
 .outline_main{
@@ -105,7 +105,7 @@ body {
   align-items: center;  
 
 }
-.main_block{
+.form{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -115,10 +115,12 @@ body {
 }
 
 .main_menu{
+  
    display: flex;
    align-items: center;
    justify-content: space-between;
    flex-direction: row;
+
 }
 
 .register_form{
@@ -126,9 +128,7 @@ body {
   flex-direction: column;  
   justify-content: left;
   align-items: flex-start;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 0 15px 15px;
 }
 
 .name{
@@ -148,16 +148,29 @@ body {
   align-items: center;
 	width: 5%;
   padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .name_input_head{
-  width: 20%;
+  width: 100%;
+  margin-right: 25px;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
   color: #757575;
+  border: 1px solid #E0E0E0;
+}
+
+.name_input_head:last-child{
+  margin-right: 0px;
 }
 
 .name_input{
   width: 100%;
 	color: #757575;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #E0E0E0;
 }
 
 .name_input_form_head{
@@ -186,12 +199,15 @@ body {
 
 .title_form_title{
   padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .business_addres{
 	color: #007AFF;
 	margin-top: 50px;
 	margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .address{  
@@ -207,9 +223,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
-  width: 30%;
 	align-items: flex-start;
+  width: 100%; 
+  margin-right: 20px;
 }
+
+.column_item:last-child {
+    margin-right: 0;
+  }
+
 
 .add_info_phone{
   color: #878786;
@@ -218,15 +240,19 @@ body {
 
 .address_title{
   padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .below_navigation{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: space-between;
   padding-top: 30px;
+  padding-left: 10px;
+
 }
 
 .button-submit {
@@ -240,6 +266,7 @@ body {
   outline: none;
   cursor: pointer;
   border-radius: 4px ;
+  margin-right: 20px;
 }
 
 .footer{
@@ -257,6 +284,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1.5px solid #C6C6C5; 
 }
 
 .footer_down{
