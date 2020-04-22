@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: Roboto;
+} 
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top:  30px;
+  padding-bottom: 20px;
+}
+
+.header_1{
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.header_2{
+  padding-left: 50px;
+  padding-top: 15px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background: #F4F4F4;
+  align-items: center;
+}
+
+.input-search {
+  width: 400px;
+  height:35px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 4px 0px 0px 4px;
+  padding: 0 14px;
+  outline-color: #007AFF;
+  color: #757575;
+}
+
+.button-blue {
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+
+  background: #007AFF;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-send {
+  border-radius: 4px ;
+}
+
+.button {
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 4px ;
+  background: transparent;
+  border: 1px solid #757575;
+  outline-color: #007AFF;
+  padding: 10px 17px;
+  color: #757575;
+}
+
+.header__section{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.menu_item{
+  padding-bottom: 25px;
+  color: #737270;
+  text-decoration: none;
+  margin: 0 15px;
+  margin-right: 40px;
+}
+
+.outline_main{
+  outline: 1px solid #C6C6C5;
+}
+
+.outline{
+  outline: 1px solid blue;
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;  
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:970px;
+   
+}
+
+.main_menu{  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+
+}
+
+.register_form{
+  display: flex;
+  flex-direction: column;  
+  justify-content: left;
+  align-items: flex-start;
+  padding: 0 15px 15px;
+}
+
+.name{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;	
+  align-items: flex-start;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.name_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;  
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.name_input_head{
+  width: 100%;
+  margin-right: 25px;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  color: #757575;
+  border: 1px solid #E0E0E0;
+}
+
+.name_input_head:last-child{
+  margin-right: 0px;
+}
+
+.name_input{
+  width: 100%;
+  color: #757575;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #E0E0E0;
+}
+
+.name_input_form_head{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.name_input_form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;   
+}
+
+.title_form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: flex-start;
+}
+
+.title_form_title{
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.business_addres{
+  color: #007AFF;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.address{  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 30px;
+}
+
+.column_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: flex-start;
+  width: 100%; 
+  margin-right: 20px;
+}
+
+.column_item:last-child {
+  margin-right: 0;
+  }
+
+
+.add_info_phone{
+  color: #878786;
+  font-size: 10pt;
+}
+
+.address_title{
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.below_navigation{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  padding-top: 30px;
+  padding-left: 10px;
+
+}
+
+.button-submit {
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+  background: #007AFF;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px ;
+  margin-right: 20px;
+}
+
+.footer{
+  margin-top: 65px;
+  width: 970px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+.footer_up{
+  width: 970px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1.5px solid #C6C6C5; 
+}
+
+.footer_down{
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-between;
+  color: #878786;
+}
+
+.col{
+  color: #1C1C1B;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+.col_title{
+  font-size: 20px
+}
+
+.col_elem{
+  font-size: 16px
+  line-height: 30px;
+  text-decoration: none;
+  display:flex;
+}
+
+.facebook{
+  font-size: 14px;
+  line-height: 30px;
+  color: #1C1C1B;
+  display: flex;
+}
+
+.pinterest{
+  font-size: 14px;
+  line-height: 30px;
+  color: #1C1C1B;
+  display: flex;
+}
+
+.twitter{
+  font-size: 14px;
+  line-height: 30px;
+  color: #1C1C1B;
+  display: flex;
+}
+
+.instagram{
+  font-size: 14px;
+  line-height: 30px;
+  color: #1C1C1B;
+  display: flex;
+}
+
+.facebook::before {
+  content: url("../img/facebook.svg"); 
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.pinterest::before {
+  content: url("../img/pinterest.svg");
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.twitter::before {
+  content: url("../img/twitter.svg");
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.instagram::before {
+  content: url("../img/instagram.svg");
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.line{
+  background: #C6C6C5;
+  width:970px;
+  height: 2px;
+  margin-top: 50px
+}
+
