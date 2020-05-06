@@ -13,7 +13,7 @@ body {
   padding-bottom: 20px;
 }
 
-.header_1{
+.header1{
   padding-bottom: 20px;
   width: 100%;
   display: flex;
@@ -21,7 +21,7 @@ body {
   justify-content: space-around;
 
 }
-.header_2{
+.header2{
   padding-left: 50px;
   padding-top: 15px;
   height: 40px;
@@ -73,7 +73,7 @@ body {
   color: #757575;
 }
 
-.header__section{
+.headersection{
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -81,7 +81,7 @@ body {
 
 }
 
-.menu_item{
+.menuitem{
   padding-bottom: 25px;
   color: #737270;
   text-decoration: none;
@@ -89,7 +89,7 @@ body {
   margin-right: 40px;
 }
 
-.outline_main{
+.outlinemain{
   outline: 1px solid #C6C6C5;
 }
 
@@ -98,14 +98,14 @@ body {
 }
 
 
-.main{
+.form{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;  
 
 }
-.form{
+.main{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -114,7 +114,7 @@ body {
    
 }
 
-.main_menu{  
+.mainmenu{  
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -122,7 +122,7 @@ body {
 
 }
 
-.register_form{
+.registerform{
   display: flex;
   flex-direction: column;  
   justify-content: left;
@@ -140,7 +140,7 @@ body {
   padding-bottom: 10px;
 }
 
-.name_title{
+.nametitle{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,7 +150,7 @@ body {
   font-size: 14px;
 }
 
-.name_input_head{
+.nameinputhead{
   width: 100%;
   margin-right: 25px;
   height: 30px;
@@ -159,11 +159,11 @@ body {
   border: 1px solid #E0E0E0;
 }
 
-.name_input_head:last-child{
+.nameinputhead:last-child{
   margin-right: 0px;
 }
 
-.name_input{
+.nameinput{
   width: 100%;
   color: #757575;
   height: 30px;
@@ -171,7 +171,7 @@ body {
   border: 1px solid #E0E0E0;
 }
 
-.name_input_form_head{
+.nameinputformhead{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -179,7 +179,7 @@ body {
   align-items: space-between;
 }
 
-.name_input_form{
+.nameinputform{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -187,7 +187,7 @@ body {
   align-items: baseline;   
 }
 
-.title_form{
+.titleform{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -195,13 +195,13 @@ body {
   align-items: flex-start;
 }
 
-.title_form_title{
+.titleformtitle{
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 14px;
 }
 
-.business_addres{
+.businessaddres{
   color: #007AFF;
   margin-top: 50px;
   margin-bottom: 10px;
@@ -217,7 +217,7 @@ body {
   padding-top: 30px;
 }
 
-.column_item{
+.columnitem{
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
@@ -226,23 +226,23 @@ body {
   margin-right: 20px;
 }
 
-.column_item:last-child {
+.columnitem:last-child {
   margin-right: 0;
   }
 
 
-.add_info_phone{
+.addinfophone{
   color: #878786;
   font-size: 10pt;
 }
 
-.address_title{
+.addresstitle{
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 14px;
 }
 
-.below_navigation{
+.belownavigation{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -276,7 +276,7 @@ body {
   align-items: space-between;
 }
 
-.footer_up{
+.footerup{
   width: 970px;
   display: flex;
   flex-direction: row;
@@ -286,7 +286,7 @@ body {
   border-bottom: 1.5px solid #C6C6C5; 
 }
 
-.footer_down{
+.footerdown{
   padding: 30px;
   width: 100%;
   display: flex;
@@ -304,11 +304,11 @@ body {
   align-items: space-between;
 }
 
-.col_title{
+.coltitle{
   font-size: 20px
 }
 
-.col_elem{
+.colelem{
   font-size: 16px
   line-height: 30px;
   text-decoration: none;
