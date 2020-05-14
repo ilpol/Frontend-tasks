@@ -1,0 +1,246 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+   /* font-family: 'Roboto';*/
+    font-family: "Times New Roman", Georgia, Serif;     
+}
+
+body{ 
+    margin: 0;
+    padding: 0;  
+    font-size: 14pt;    
+}
+
+.wrapMain{
+    background-image: url("../img/backgroundTablet.png");
+    background-color: red;
+    background-position: center;
+    color:#fff;
+    background-size:cover;
+    padding-bottom: 10px;
+}
+
+.header{
+    color:#fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width:100%;
+    border-bottom: 2px solid #A3A3A3;
+    padding-left: 5%;
+}
+
+.select{    
+    display: flex;
+    justify-content: stretch;    
+    width:50%;
+}
+
+.search{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-top: 18px;
+    padding-bottom: 18px;  
+    outline: none;
+    border-left: 2px solid #A3A3A3;   
+}
+
+.dimention{
+    display: none;
+}
+
+.models{
+   display: flex;
+   align-items: stretch;
+   padding-top: 18px; 
+   border-bottom: solid white;
+}
+
+.burgerMenu{
+    width:25%;
+    padding-top: 18px;
+}
+
+.searchText{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.searchText::before{
+    margin-right: 5px;
+    margin-left: 5px;
+    content:url('../img/Shape.png');
+}
+
+.main{   
+    padding-left: 5%;    
+}
+
+.text{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+.infoBase{
+    padding-top: 42px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    border-left: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-left: 20px;
+    width:100%;
+}
+
+.manufacturer{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    border-left: 20px;
+}
+
+.reviewWrap{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titleMain{
+    font-weight:bold;
+    font-size: 70pt;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-weight:bold;   
+    margin-top: 10px;
+}
+
+.star{
+padding-right: 20px;
+}
+
+.stars{
+    display: flex;
+    justify-content: flex-start;   
+}
+
+.buttonFilm{
+    padding-right: 160px;
+}
+
+.buttonFilm::before{
+ content:url('../img/play.svg');
+}
+
+.buttonBookmark::before{
+    content:url('../img/bookmark.png');
+}
+
+.score{
+    margin-left: 10px;
+}
+
+.formSection{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, rgba(9, 9, 9, 0.465718), rgba(9, 9, 9, 0.465718)), #1F1F2F;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 66px;
+}
+
+.titleForm{
+    padding: 10px 15px 5px 5px;
+}
+
+.form{
+   width:100%;    
+}
+
+.inputName{
+    box-sizing: border-box;
+    background-image: url("../img/person.png");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    width: 48%;
+}
+
+.inputEmail{
+    box-sizing: border-box;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 48%;
+    margin-top: 25px;
+    margin-bottom: 20px;    
+}
+
+.fields{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.input::-webkit-input-placeholder {
+    padding-left: 17px;
+}
+
+.buttonSend{
+    box-sizing: border-box;
+    background-color: #F92251;;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.footerElemsWrap{
+    display: flex;
+    color: #BAC5D3;
+}
+
+.footer{
+    background: #404754;
+    color: #BAC5D3;
+    padding: 20px 0px 15px 5%;
+}
+
+.footerElem{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #BAC5D3;
+}
+
+.footerElem:hover {
+    color: red;
+}
+.outline{
+    outline: 1px solid blue;
+}

@@ -1,0 +1,267 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+   /* font-family: 'Roboto';  */ 
+    font-family: "Times New Roman", Georgia, Serif; 
+}
+
+body{ 
+    margin: 0;
+    padding: 0;  
+    font-size: 14pt;    
+}
+
+.wrapMain{
+    background-image: url("../img/backgroundTablet.png");
+    background-color: red;
+    background-position: center;
+    color:#fff;
+    background-size:cover;
+    padding-bottom: 10px;
+}
+
+.header{
+    color:#fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width:100%;
+    border-bottom: 2px solid #A3A3A3;
+    padding-left: 5%;
+}
+
+.select{    
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width:70%;
+}
+
+.select::before{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-right: 120px;
+    content: url("../img/domoKunLogo.png");
+    cursor: pointer;
+}
+
+.search{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-left: 2px solid #A3A3A3; 
+    cursor: pointer;  
+}
+
+.models{
+    display: flex;
+    border-bottom: solid white;
+    padding-top: 29px; 
+    cursor: pointer;
+}
+
+.burgerMenu{
+    display: none;
+    width:25%;
+}
+
+.searchText{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 29px;   
+    margin-left: 10px;
+}
+
+.searchText::before{
+    margin-right: 5px;
+    margin-left: 5px;
+    content:url('../img/Shape.png');
+}
+
+.dimention{
+    padding-left: 60px;
+    padding-top: 29px; 
+    cursor: pointer;
+}
+
+.main{   
+    padding-left: 5%;
+}
+
+.text{   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    border-left: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-left: 20px;
+    width:40%;
+}
+
+.manufacturer{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    border-left: 20px;
+}
+
+.titleMain{
+    font-weight:bold;
+    font-size: 70pt;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoBase{
+    padding-top: 70px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: flex-start;
+}
+
+.title{
+    font-weight:bold;   
+    margin-top: 10px;
+}
+
+.star{
+    padding-right: 20px;
+}
+
+.stars{
+    display: flex;
+    justify-content: flex-start;   
+}
+
+.buttonFilm{
+    padding-right: 160px;
+}
+
+.buttonFilm::before{
+    content:url('../img/play.svg');
+}
+
+.buttonBookmark::before{
+    content:url('../img/bookmark.png');
+}
+.score{
+    margin-left: 10px;
+}
+.form{
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    justify-content: space-around;
+    height:40px;
+}
+
+.formSection{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, rgba(9, 9, 9, 0.465718), rgba(9, 9, 9, 0.465718)), #1F1F2F;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+
+.titleForm{
+    padding: 50px 15px 5px 5px;
+}
+
+.inputName{
+    box-sizing: border-box;
+    background-image: url("../img/person.png");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    border-radius: 10px;   
+    width: 40%;
+    height: 90%;
+}
+
+.inputEmail{
+    box-sizing: border-box;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 90%;   
+    margin-bottom: 20px;
+}
+
+.fields{
+    display: flex;
+    justify-content: space-around;
+    text-align: stretch;   
+    width:60%;
+}
+
+.input::-webkit-input-placeholder {
+    padding-left: 17px;
+}
+
+.buttonSend{
+    box-sizing: border-box;
+    background-color: #F92251;;
+    border-radius: 10px;
+    color: #fff;    
+    width: 26%;
+    cursor: pointer;
+}
+
+.footerElemsWrap{
+    display: flex; 
+    color: #BAC5D3;   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #404754;
+    color: #BAC5D3;
+    padding: 10px 0px 15px 5%;
+}
+
+.mark{
+    padding-right: 20px;
+}
+
+.footerElem{
+    margin-bottom: 10px;
+    margin-right: 10px;   
+    color: #BAC5D3;
+}
+
+.footerElem:hover {
+    color: red;
+}
+
+.outline{
+    outline: 1px solid blue;
+}
+
