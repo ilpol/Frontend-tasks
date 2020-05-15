@@ -10,9 +10,9 @@ const text = `Ваш возраст: ${age} лет`;
 alert(text); // Должен вывести: Ваш возраст: 20 лет
 
 
-var hours = 12;
+let hours = 12;
 const minutes = 45;
 hours+=1;
-var textWithTime = `Текущее время: ${hours}:${minutes}`;
+const textWithTime = `Текущее время: ${hours}:${minutes}`;
 
 alert(textWithTime); // Должен вывести: Текущее время: 13:45
