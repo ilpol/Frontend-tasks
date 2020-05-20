@@ -12,16 +12,13 @@ function validate(data) {
         alert('Пароли должны совпадать');
     } else if (!license) {
         alert('Необходимо согласие');
-    } else if(firstName==''){
+    } else if (!firstName){
         alert('Имя не может быть пустым')
-    }
-    else if(reservedNames.includes(login)){
+    } else if (reservedNames.includes(login)){
         alert('Данный логин занят');
-    }
-    else if(gender=='male'){
+    } else if (gender=='male'){
         alert(`Уважаемый ${firstName}, заявка создана`);
-    }
-    else{
+    } else{
         alert(`Уважаемая ${firstName}, заявка создана`);
     }
 }
