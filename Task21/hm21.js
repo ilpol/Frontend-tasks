@@ -8,12 +8,12 @@ const firstObject = {
 };
 
 function resolve1(inputObject) {
-    const val =  Object.values(inputObject)[0];
-    const key = Object.keys(inputObject)[0];
+  const val =  Object.values(inputObject)[0];
+  const key = Object.keys(inputObject)[0];
     
-	return {
-		    [val] : key
-	       }
+  return {
+    [val] : key
+    }
 };
 
 const result1 = resolve1(firstObject);
@@ -31,16 +31,16 @@ const secondObject = {
 };
 
 function resolve2(inputObject) {
-    const vals =  Object.values(inputObject);
-    const keys = Object.keys(inputObject);
-    const resolved = {};
-    let val;
-    keys.forEach((key, index) => {
-   		val = vals[index];
-    	resolved[val] = key;
-    });
+  const vals =  Object.values(inputObject);
+  const keys = Object.keys(inputObject);
+  const resolved = {};
+  let val;
+  keys.forEach((key, index) => {
+    val = vals[index];
+    resolved[val] = key;
+  });
 
-	return resolved;
+  return resolved;
 };
 
 const result2 = resolve2(secondObject);
@@ -55,11 +55,11 @@ console.log(secondObject);
 // Использовать Глобальный объект Math
 
 function centuryFromYear(year) {
-	if (year>=0) {
-		console.log(Math.floor(year/100) + 1)
-	} else {
-		console.log(Math.floor(year/100))
-	}
+  if (year>=0) {
+    console.log(Math.floor(year/100) + 1)
+  } else {
+    console.log(Math.floor(year/100))
+  }
 }
 const year = 1905;
 centuryFromYear(year); // 20
