@@ -18,7 +18,7 @@ function validate(data) {
         alert('Данный логин занят');
     } else if (gender=='male'){
         alert(`Уважаемый ${firstName}, заявка создана`);
-    } else{
+    } else {
         alert(`Уважаемая ${firstName}, заявка создана`);
     }
 }
