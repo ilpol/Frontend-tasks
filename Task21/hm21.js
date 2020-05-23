@@ -56,7 +56,7 @@ console.log(secondObject);
 
 function centuryFromYear(year) {
   if (year>=0) {
-    console.log(Math.floor(year/100) + 1)
+    console.log(Math.ceil(year/100))
   } else {
     console.log(Math.floor(year/100))
   }
