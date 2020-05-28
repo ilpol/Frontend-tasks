@@ -1,4 +1,4 @@
-var dragged;
+let dragged;
 
 document.addEventListener("dragstart", function(event) {
   dragged = event.target;
@@ -42,7 +42,8 @@ document.addEventListener('keydown', function(event) {
   } 
 });
 
-document.querySelector('.demo3').addEventListener('mouseover', handleMouseOver);
+const demo3 = document.querySelector('.demo3');
+demo3.addEventListener('mouseover', handleMouseOver);
 let circle1 = circle2 = circle3 = circle4 = circle5 = false;
 function handleMouseOver(event) {
   if (event.target.classList.contains('circle1')) {
@@ -61,13 +62,14 @@ function handleMouseOver(event) {
     circle5 = true;
   }
   
-  if (circle1===true && circle2===true && circle3===true && circle4===true && circle5===true) {
+  if (circle1 && circle2 && circle3 && circle4 && circle5) {
     const title3 = document.querySelector('.title3');
     title3.innerHTML = "<h1>Вы восхитительны! Можете делать даже бесполезные вещи!</h1>";
   }
 };
 
-document.querySelector('.redButton').addEventListener('click', () => {
+const redButton = document.querySelector('.redButton');
+redButton.addEventListener('click', () => {
   const title4 = document.querySelector('.title4');
   title4.innerHTML = "<h1>Совершенно верно! Теперь проверьте свой счет.</h1>";  
   }
