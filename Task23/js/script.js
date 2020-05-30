@@ -2,11 +2,11 @@ let dragged;
 
 document.addEventListener("dragstart", function(event) {
   dragged = event.target;
-}, false);
+});
 
 document.addEventListener("dragover", function(event) {
   event.preventDefault();
-}, false);
+});
 
 document.addEventListener("drop", function(event) {
   event.preventDefault();
@@ -18,7 +18,7 @@ document.addEventListener("drop", function(event) {
     const title1 = document.querySelector('.title1');
     title1.innerHTML = "<h1>Вам назначена премия!</h1>";
   }
-}, false);
+});
 
 document.addEventListener('keydown', function(event) {
 
