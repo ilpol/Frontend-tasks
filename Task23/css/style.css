@@ -69,7 +69,7 @@ img {
     border-radius: 50%;
     display: inline-block;
     margin-right: 50px;
-    &:last-child{
+    last-child{
         margin-right: 0px;
     }
 }
