@@ -14,6 +14,5 @@ window.addEventListener("message", function(event) {
 	divNum.innerHTML = num; 
 	console.log(num);               
 	document.body.appendChild(divNum);
-	return;
 });
 
