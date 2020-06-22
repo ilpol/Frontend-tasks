@@ -5,5 +5,4 @@ window.addEventListener("message", function(event) {
 	document.body.appendChild(divNum);
 	num++;
 	parent.postMessage(num, "*");
-	complete = 1;
 });
