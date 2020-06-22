@@ -1,9 +1,9 @@
 window.addEventListener("message", function(event) {  
-	let num = parseInt(event.data);
+	let num = +event.data;
 	let divNum = document.createElement("DIV");  
 	divNum.innerHTML = num;                
 	document.body.appendChild(divNum);
-	num +=1;
+	num++;
 	parent.postMessage(num, "*");
 	complete = 1;
 });

@@ -1,18 +1,24 @@
 window.onbeforeunload = function() {
-  return "Закрыть страницу?";
+	return "Закрыть страницу?";
 };
 
 function callFrame() {
-  let num = window.prompt();
-  let win = window.frames.page2;
-  win.postMessage(num, "*");
+	let num = window.prompt();
+	if (num === "") {
+		alert("Вы ничего не ввели!");	
+	}
+	else if (Number.isNaN(+num)) {
+		alert("Вы должны ввести число");
+	}
+	else {
+		let win = window.frames.page2;
+		win.postMessage(num, "*");
+	}
 }
 
 window.addEventListener("message", function(event) {  
-	let num = parseInt(event.data); 
 	let divNum = document.createElement("DIV");  
-	divNum.innerHTML = num; 
-	console.log(num);               
-	document.body.appendChild(divNum);
+	divNum.innerHTML = event.data;        
+	document.body.appendChild(divNum);	
 });
 
