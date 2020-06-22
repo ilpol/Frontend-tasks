@@ -51,7 +51,7 @@ form.addEventListener('submit', (e) => {
   for (let prop in objectData) {
     setCookie(prop, objectData[prop], 365);
   } 
-  Array.prototype.forEach.call(inputElements, elem => {
+   Array.from(inputElements).forEach(elem => {
     if (!elem.checked) {
       setCookie(elem.id, "0", 365);         
     }

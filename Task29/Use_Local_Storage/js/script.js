@@ -27,7 +27,7 @@ form.addEventListener('submit', (e) => {
       saveData[prop] = objectData[prop];    	
     } 
       
-	Array.prototype.forEach.call(inputElements, elem => {
+	Array.from(inputElements).forEach(elem => {
     	if (!elem.checked){
 	    	saveData[elem.id] = "false";	      	
 	    }
