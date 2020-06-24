@@ -4,9 +4,7 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" media="(min-width: 1px) and (max-width: 767px) "href="./css/stylePhone.css">
-  <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1199px) " href="./css/styleTablet.css" />
-  <link rel="stylesheet" media="(min-width: 1200px) and (max-width: 1800px) " href="./css/styleDesktop.css" />  
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/fonts.css">
   <title>Task16</title>
 </head>
@@ -15,7 +13,7 @@
 <header class = "header">
   <div class = "select"> 
         <div class = "burgerMenu"> 
-          <img src="img/BurgerMenu.png" alt="Menu">
+          <img  src="img/BurgerMenu.png" alt="Menu">
         </div>
         <div class = "models">
         Models
@@ -34,9 +32,9 @@
         </div>
   </div>
   <div class = "search">
-        <div class = "searchText">
-        Search for details...
-        </div> 
+        <img class = "searchIcon"  alt="search icon">
+        <input type="search" placeholder="Search for details..." class = "searchText">
+        
   </div>
 </header>
 
@@ -55,10 +53,16 @@
     </div>
     <div class = "buttons">
       <div class = "buttonFilm">
-        Watch film
+        <div class = "filmImg"></div>
+        <div class = "filmText">
+           Watch film
+        </div>
       </div>
       <div class = "buttonBookmark">
-        Bookmark for later
+        <div class = "BookmarkImg"></div>
+        <div class = "bookmarkText">
+          Bookmark for later
+        </div>
       </div>
     </div>
     <div class = "infoBase">
@@ -109,7 +113,6 @@
   </div>
 </div>
 </div>
-</div>
 
 <div class = "formSection">
   <div class = "titleForm">
@@ -122,13 +125,13 @@
   </div>
   <form  method="post" action="/posturl/newsletter/" class = "form">
     <div class = "fields">
-    <input type="text" id="name" minlength="2" maxlength="30" required pattern="[A-Za-z]{2,30}" name="Name" placeholder="Name" class = "input inputName">
-     <input type="text" pattern="[A-Za-z_\.0-9]+@[a-z0-9]+\.[a-z]{2,5}" id="email" name="Email" placeholder="E-Mail" class = "input inputEmail">    
+      <input type="text" id="name" minlength="2" maxlength="30" required pattern="[A-Za-z]{2,30}" name="Name" placeholder="Name" class = "input inputName">
+       <input type="email" pattern="[A-Za-z_\.0-9]+@[a-z0-9]+\.[a-z]{2,5}" id="email" name="Email" placeholder="E-Mail" class = "input inputEmail">    
     </div>
     <input type="submit" value="GET STARTED FOR FREE" class = "buttonSend">
   </form>
 </div>
-</div>
+
 
 <footer class = "footer">
   <div class = "footerElemsWrap">
@@ -146,7 +149,7 @@
      </a>
   </div>
   <div class = "mark">
-  &#169; 2020, &ltBeeInterns /&gt
+  &#169; 2020, &lt;BeeInterns /&gt;
   </div>
 </footer>
 </body>
